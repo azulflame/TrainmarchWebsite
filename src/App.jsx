@@ -5,7 +5,6 @@ import CharacterCreation from './CharacterCreation/CharacterCreation';
 import BannedContent from './CharacterCreation/BannedContent';
 import Rules from './Rules';
 import NotFound from './NotFound';
-import CraftingItems from './Downtime/Crafting/CraftingItems';
 import CraftingPotions from './Downtime/Crafting/CraftingPotions';
 import HowToCraft from './Downtime/Crafting/HowToCraft';
 import Learning from './Downtime/Learning';
@@ -16,6 +15,10 @@ import Housing from "./Downtime/Housing";
 import Working from "./Downtime/Working";
 import Scrolls from "./Downtime/Crafting/Scrolls";
 import LearningScrolls from "./Downtime/LearningSpells";
+import Common from "./Downtime/Crafting/Items/Common";
+import VeryRare from "./Downtime/Crafting/Items/VeryRare";
+import Rare from "./Downtime/Crafting/Items/Rare";
+import Uncommon from "./Downtime/Crafting/Items/Uncommon";
 
 function App() {
   return (
@@ -30,7 +33,12 @@ function App() {
           </Route>
           <Route path="downtime/">
             <Route path="crafting/">
-              <Route path="items" element={<CraftingItems />} />
+              <Route path="items/">
+                <Route path="common" element={<Common />} />
+                <Route path="uncommon" element={<Uncommon />} />
+                <Route path="rare" element={<Rare />} />
+                <Route path="veryrare" element={<VeryRare />} />
+              </Route>
               <Route path="potions" element={<CraftingPotions />} />
               <Route path="howto" element={<HowToCraft />} />
               <Route path="scrolls" element={<Scrolls />} />

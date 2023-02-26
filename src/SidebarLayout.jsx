@@ -18,7 +18,12 @@ export default function SidebarLayout() {
             <MenuItem routerLink={<Link to="/downtime/about" />}>About Downtime</MenuItem>
             <SubMenu label="Crafting">
               <MenuItem routerLink={<Link to="/downtime/crafting/howto" />}>How to craft</MenuItem>
-              <MenuItem routerLink={<Link to="/downtime/crafting/items" />}>Items</MenuItem>
+              <SubMenu label="Items">
+                <MenuItem routerLink={<Link to="/downtime/crafting/items/common" />}>Common Items</MenuItem>
+                <MenuItem routerLink={<Link to="/downtime/crafting/items/uncommon" />}>Uncommon Items</MenuItem>
+                <MenuItem routerLink={<Link to="/downtime/crafting/items/rare" />}>Rare Items</MenuItem>
+                <MenuItem routerLink={<Link to="/downtime/crafting/items/veryrare" />}>Very Rare Items</MenuItem>
+              </SubMenu>
               <MenuItem routerLink={<Link to="/downtime/crafting/potions" />}>Potions</MenuItem>
               <MenuItem routerLink={<Link to="/downtime/crafting/scrolls" />}>Spell Scrolls</MenuItem>
             </SubMenu>

@@ -1,5 +1,5 @@
 import { render } from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import App from "./App";
 import React from "react";
 import { ProSidebarProvider } from 'react-pro-sidebar';
@@ -8,13 +8,13 @@ import "./App.css"
 
 const rootElement = document.getElementById("root");
 render(
-  <BrowserRouter>
+  <HashRouter>
     <ProSidebarProvider>
       <div className="rowC">
         <SidebarLayout className="sidebar-layout" />
         <App className="App" />
       </div>
     </ProSidebarProvider>
-  </BrowserRouter>,
+  </HashRouter>,
   rootElement
 );  

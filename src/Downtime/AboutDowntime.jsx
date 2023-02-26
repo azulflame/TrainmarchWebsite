@@ -12,7 +12,7 @@ export default function AboutDowntime() {
             <h2>Why do I want to use Downtime?</h2>
             <p>Using this system allows you to grow your character outside of questing.</p>
             <h2>How do I gain downtime?</h2>
-            <p>Downtime is one of the rewards from quests. You also can use 1 free DT every 24 hours, without needing to add it to your total. The bot will manage this for you, refreshing the daily DT 24 hours after you use it. You cannot hold more than 30 DT at a time, so make sure to use it before you lose it.</p>
+            <p>Downtime is one of the rewards from quests. You also can gain 1 free DT every 24 hours. The bot will manage this for you, but you must add the daily downtime to your characters yourself. If you do not add it, you do not get it.</p>
             <h2>How do I use my downtime?</h2>
             <p>To use your downtime, we have several actions you can take. They all cost downtime to use, so make sure you have some before try to use any.</p>
             <h2>How much Downtime can I use at a time?</h2>
