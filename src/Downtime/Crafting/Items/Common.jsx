@@ -72,10 +72,6 @@ export default function Common() {
                 <tr><td>Pole of Angling	</td><td>100</td><td>20</td></tr>
                 <tr><td>Pole of Collapsing	</td><td>100</td><td>20</td></tr>
                 <tr><td>Pot of Awakening	</td><td>100</td><td>20</td></tr>
-                <tr><td>Potion of Climbing	</td><td>400</td><td>40</td></tr>
-                <tr><td>Potion of Comprehension	</td><td>400</td><td>40</td></tr>
-                <tr><td>Potion of Healing	</td><td>400</td><td>40</td></tr>
-                <tr><td>Potion of Watchful Rest	</td><td>400</td><td>40</td></tr>
                 <tr><td>Pressure Capsule	</td><td>100</td><td>20</td></tr>
                 <tr><td>Prosthetic Limb	</td><td>100</td><td>20</td></tr>
                 <tr><td>Rope of Mending	</td><td>100</td><td>20</td></tr>
